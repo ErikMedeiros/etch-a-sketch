@@ -21,6 +21,12 @@ body {
     border: 2px black solid;
 }
 
+#slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .line {
     justify-content: center;
     display: flex;
