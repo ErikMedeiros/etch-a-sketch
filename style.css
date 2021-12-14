@@ -21,7 +21,7 @@ body {
     border: 2px black solid;
 }
 
-#slider-container {
+#slider-container, #buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
