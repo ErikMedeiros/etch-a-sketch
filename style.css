@@ -1,15 +1,18 @@
 body {
     margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    background-color: blanchedalmond;
 }
 
 #main-container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 16px;
 }
 
 #canvas {
@@ -19,14 +22,24 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     border: 2px black solid;
+    background-color: white;
 }
 
-#slider-container, #buttons {
+#buttons, #slider-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
+#buttons {
+    gap: 16px;
+}
+
+#slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
 .line {
     justify-content: center;
     display: flex;
